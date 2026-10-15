@@ -1,0 +1,1 @@
+@extends('layout') @section('content')<h1>Create short URL</h1><form method="post" action="/urls">@csrf<label>Original URL <input type="url" name="original_url" required style="width:400px"></label><button>Create</button></form>@endsection

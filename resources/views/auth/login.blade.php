@@ -1,0 +1,1 @@
+@extends('layout') @section('content')<h1>Log in</h1><form method="post" action="/login">@csrf<label>Email <input name="email" type="email" required value="{{ old('email') }}"></label><br><label>Password <input name="password" type="password" required></label><br><button>Log in</button></form><p>Seeded SuperAdmin: superadmin@example.com / ChangeMe123!</p>@endsection
